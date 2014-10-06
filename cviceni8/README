@@ -1,0 +1,5 @@
+﻿Vytvořte USB zařízení s koncovými body 1 (IN) a 2 (OUT).
+Příslušným způsobem upravte deskriptory zařízení.
+Na PC napište jednoduchou aplikaci, která bude s koncovými body komunikovat přes knihovnu libusb.
+Data zaslaná na koncový bod 2 zobrazujte na displeji.
+Z koncového bodu 1 čtěte stav kláves přípravku.

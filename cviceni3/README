@@ -1,0 +1,7 @@
+﻿Příkazem lspci (Linux) zjistěte VID a DID SATA řadiče.
+Napište funkci, která vyhledá PCI zařízení s požadovaným VID a PID (prohledávejte i funkce zařízení) a vrátí bázovou adresu v konfiguračním adresním prostoru.
+Zaměřte se na BAR v konfiguračním prostoru, který mapuje registry druhého disku do V/V prostoru.
+Zjistěte, kolik V/V registrů tento BAR mapuje.
+Příkazem cat /proc/ioports zobrazte mapu V/V prostoru a vyhledejte volnou oblast.
+Ověřte přítomnost registrů disku na původní adrese, změnou hodnoty v BAR registru přemapujte registry řadiče disku ve V/V prostoru a ověřte přítomnost registrů na nové adrese.
+Napište program, který přečte nultý sektor druhého disku a obsah zobrazte v šestnáctkové soustavě.

@@ -1,0 +1,4 @@
+﻿Implementujte jednoduché znakové zařízení v Linuxu, které bude implementovat souborové operace open, read, write, ioctl a close. Operace write bude vypisovat obsah bufferu v textové podobě prostřednictvím ladícíh zpráv jádra (printk) zobrazitelných příkazem dmesg. operace read bude vracet vámi definovaný řetězec, případně jeho délku. Operaci na straně jádra si libolně upravte. Obě implementované funkce v ovladači musí obsahovat funkce pro kopírování dat mezi paměťovým prostorem uživatele a jádra. Implementujte alespoň dvě ioctl operace, které si zvolte po dohodě s pedagogem.
+Nejprve otestujte ovladač příkazy operačního systému echo „test“ >/dev/mpp a cat /dev/mpp a odpovězte na otázku, proč příkaz cat nikdy neskončí.
+Dále napište aplikaci v jazyce C, kterou ukážete, že ovladač funguje. Použijte souborové operace open(…), read(…), write(…), ioctl(…), close(…).
+Jako dokumentaci těchto funkcí použijte manuálové stránky.

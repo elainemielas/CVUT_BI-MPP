@@ -1,0 +1,6 @@
+﻿příkazem cat /proc/ioports|less zobrazte mapu V/V prostoru
+příkazem cat /proc/interrupts|less zobrazte tabulku přerušení
+přečtěte aktuální čas z obvodu reálného času RTC
+napište funkci unsigned long pci_cfg_read(unsigned long cfg_addr), která přečte hodnotu registru v konfiguračním prostoru PCI karty
+napište funkci void pci_cfg_write(unsigned long cfg_addr, unsigned long val), která zapíše do registru v konfiguračním registru PCI karty
+zjistěte, jaká zařízení jsou na počítači přítomna. Vypište VID a DID každého zařízení. Porovnejte s výpisem příkazu lspci.

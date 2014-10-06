@@ -1,0 +1,8 @@
+﻿Deklarujte koncový bod 0 a jeho buffery.
+Do funkce main() začleňte inicializaci USB podsystému a hlavní smyčku.
+Vytvořte funkci process_control_transfer(int ep_num).
+Ve funkci process_control_transfer detekujte SETUP paket a dekodujte požadavek (request) na přenos dat. Hodnoty požadavku vytiskněte do logu.
+Implementujte odezvu na žádost o Device deskriptor (device descriptor).
+Implementujte odezvu na žádost o Configuration deskriptor (config descriptor).
+Sledujte reakci operačního systému.
+Implementujte přiřazení adresy USB zařízení.
